@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <title>калькулятор</title>
+    <script src="app.js"></script>
+</head>
+<body class="о" id="п">
+    <div class="align">
+        <p id="title">Калькулятор</p>
+
+        <div id="op">
+            <div class="chisla">
+                <button onclick="1" id="c1">1</button>
+                <button onclick="2" id="c2">2</button>
+                <button onclick="3" id="c3">3</button> <br>
+                <button onclick="4" id="c4">4</button>
+                <button onclick="5" id="c5">5</button>
+                <button onclick="6" id="c6">6</button> <br>
+                <button onclick="7" id="c7">7</button>
+                <button onclick="8" id="c8">8</button>
+                <button onclick="9" id="c9">9</button> <br>
+                <button onclick="0" id="c0">0</button><br>
+            </div>
+
+            <input id="num1" />
+            <button id="plus" onclick="op='+'">+</button>
+            <button id="minus" onclick="op='-'">-</button>
+            <button id="umn" onclick="op='*'">*</button>
+            <button id="raz" onclick="op='/'">:</button>
+            <input id="num2" /> 
+        </div>
+        
+        <br>
+
+        <button onclick="func()">Посчитать</button>
+
+    <p id="result"></p>
+    </div>
+</body>
+</html>
